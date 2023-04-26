@@ -51,11 +51,11 @@ Reference是用來儲存記憶體的位址(例如emp變數)，也有另一個名
 
 0000 0000 0000 0000 0001 1111 0100 0**000**
 
-尾巴的3個bit是０，把他移除會變成如下，這個數值是1000，你可以利用 8000 >> 3也可以得到1000
+尾巴的3個bit是０，把他移除會變成如下，這個數值是1000，你可以利用 8000 >> 3也可以得到1000。
 
 0000 0000 0000 0000 0001 1111 0100 0~~**000**~~
 
-所以實際上儲存在emp變數中的是1000，而不是8000，如果用到了emp.name的時候，程式中會將1000拿出來，往左移３個bit就會還原真正的記憶體位址了( 1000 << 3 = 8000。
+所以實際上儲存在emp變數中的是1000，而不是8000，如果用到了emp.name的時候，程式中會將1000拿出來，往左移３個bit就會還原真正的記憶體位址了((1000 << 3 = 8000)。
 
 object alignment 是8 bytes時，最後面3 bit是0，如果object alignment 設成16，則變成後面4 bit是0，理論上就可以用到 $2^{32+4}$　這麼多的記憶體，但是object alignment越大，表示浪費掉的空間會越多，因為物件的記憶體大小就必須是16的倍數，所以並不是設越大越好。
 
@@ -89,7 +89,7 @@ java -Xmx31g -Xlog:gc+heap+coops=debug HelloWorld
 
 ## jol
 
-可以透過jol驗証，如果你使用maven可以設定dependency，或者直接下載[jol-core-0.17.jar](https://repo1.maven.org/maven2/org/openjdk/jol/jol-core/0.17/jol-core-0.17.jar)。
+可以透過jol library驗証，如果你使用maven可以設定dependency，或者直接下載[jol-core-0.17.jar](https://repo1.maven.org/maven2/org/openjdk/jol/jol-core/0.17/jol-core-0.17.jar)。
 
 ```xml
 <dependency>
