@@ -15,14 +15,7 @@
  
   <div id="app"></div>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH6BL0HMQV"></script>
-  <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
-   gtag('config', 'G-XH6BL0HMQV');
-  </script>
- 
+  
   <script>
     var num = 0;
     mermaid.initialize({ startOnLoad: false, theme: 'neutral'});
@@ -31,7 +24,6 @@
       repo: '..',
       loadSidebar: true,
       subMaxLevel: 3,
-      ga: 'G-XH6BL0HMQV',
       markdown: {
           renderer: {
             code: function (code, lang) {
@@ -48,7 +40,6 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
   <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
@@ -59,8 +50,21 @@
 
   <!-- java language highlight support-->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
-
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
   
+  <!-- Copy to Clipboard -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+　
+  <!-- Pagination -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH6BL0HMQV"></script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   gtag('config', 'G-XH6BL0HMQV');
+  </script>
  
 </body>
 
