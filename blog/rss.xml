@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Java 慢慢來 Blog</title>
+        <link>https://vincenttsai.github.io/blog</link>
+        <description>Java 慢慢來 Blog</description>
+        <lastBuildDate>Wed, 17 May 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://vincenttsai.github.io/blog/2023/5/17/first</link>
+            <guid>https://vincenttsai.github.io/blog/2023/5/17/first</guid>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[簡單的記錄一些想記錄的，這個網站是利用Docusaurus 做起來的，對技術人員來說算是相當的友善。一開始本來是使用Docsify，不過似乎能設定的地方不多，我想掛個google analytics都掛不上去，查不出問題在那裏。]]></description>
+            <content:encoded><![CDATA[<p>簡單的記錄一些想記錄的，這個網站是利用<a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer">Docusaurus</a> 做起來的，對技術人員來說算是相當的友善。一開始本來是使用Docsify，不過似乎能設定的地方不多，我想掛個google analytics都掛不上去，查不出問題在那裏。</p>]]></content:encoded>
+            <author>vincent.tsd@gmail.com (Vincent)</author>
+            <category>java</category>
+            <category>Docusaurus</category>
+        </item>
+    </channel>
+</rss>
