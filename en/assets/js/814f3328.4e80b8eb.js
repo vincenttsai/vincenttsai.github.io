@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdoctest=self.webpackChunkdoctest||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"AtomicReference","permalink":"/en/blog/2023/5/23/index"},{"title":"Welcome","permalink":"/en/blog/2023/5/17/first"}]}')}}]);
