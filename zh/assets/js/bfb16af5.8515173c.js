@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdoctest=self.webpackChunkdoctest||[]).push([[909],{5392:a=>{a.exports=JSON.parse('[{"label":"java","permalink":"/zh/blog/tags/java","count":1},{"label":"Docusaurus","permalink":"/zh/blog/tags/docusaurus","count":1}]')}}]);
